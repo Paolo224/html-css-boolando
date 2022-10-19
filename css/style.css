@@ -61,6 +61,17 @@ header ul li{
 #white-heart{
     font-size: 1.2rem;
 }
+
+.genere, .strumenti{
+    width: 30%;
+}
+
+.strumenti{
+    text-align: end;
+}
+/* .logo{
+    flex-grow: 2;
+} */
 /* FINE HEADER */
 
 /* MAIN */
