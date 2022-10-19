@@ -4,3 +4,186 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.default{
+    margin: 0 auto;
+    width: 65%;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.p-fixed{
+    position: fixed;
+}
+
+/* HEADER */
+header{
+    background-color: #ff6900;
+    height: 3rem;
+    width: 100%;
+}
+
+header section{
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 .3rem;
+}
+
+[src="./img/boolean-logo.png"]{
+    width: 7rem;
+    height: 1.5rem;
+}
+
+#white-heart{
+    font-size: 1.2rem;
+}
+/* FINE HEADER */
+
+/* MAIN */
+.line-template{
+    padding-top: 6rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.template1{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 30rem;
+    width: 18rem;
+}
+
+.template2{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 30rem;
+    width: 18rem;
+}
+
+.template3{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 30rem;
+    width: 18rem;
+}
+
+.template4{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 30rem;
+    width: 18rem;
+}
+
+.template5{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 30rem;
+    width: 18rem;
+}
+
+.template6{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 30rem;
+    width: 18rem;
+}
+
+.descrizione{
+    text-align: start;
+    top: 100%;
+    left: 0;
+}
+
+.descrizione h1{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.descrizione p{
+    font-size: .9rem;
+}
+
+.descrizione p.prezzo{
+    font-size: 1rem;
+    color: red;
+
+}
+
+.sconto{
+    text-decoration: line-through;
+    color: black;
+}
+
+.tag-sconto{
+    left: 0;
+    bottom: 7rem;
+    background-color: red;
+    color: white;
+    padding: .2rem .6rem;
+}
+
+.tag-sostenibilità{
+    left: 4.2rem;
+    bottom: 7rem;
+    background-color: green;
+    color: white;
+    padding: .2rem .6rem;
+}
+
+.like{
+    bottom: 28rem;
+    left: 15rem;
+    background-color: white;
+    padding: .3rem 1rem;
+    font-size: 2rem;
+}
+
+.tag-sostenibilità2{
+    left: 0rem;
+    bottom: 7rem;
+    background-color: green;
+    color: white;
+    padding: .2rem .6rem;
+}
