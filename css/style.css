@@ -246,3 +246,6 @@ main article.template5:hover{
 main article.template6:hover{
     background-image: url(../img/6b.webp);
 }
+span.like:hover{
+    color: red;
+}
