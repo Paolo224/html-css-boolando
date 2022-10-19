@@ -35,6 +35,7 @@ header{
     background-color: #ff6900;
     height: 3rem;
     width: 100%;
+    z-index: 1;
 }
 
 header section{
@@ -173,7 +174,7 @@ header ul li{
 }
 
 .like{
-    bottom: 28rem;
+    bottom: 30rem;
     left: 15rem;
     background-color: white;
     padding: .3rem 1rem;
@@ -186,4 +187,62 @@ header ul li{
     background-color: green;
     color: white;
     padding: .2rem .6rem;
+}
+/* FINE MAIN */
+
+/* FOOTER */
+footer{
+    background-color: #1a1a1a;
+    margin-top: 7rem;
+    height: 4rem;
+    color: white;
+}
+
+.azienda{
+    line-height: 1.6rem;
+    
+}
+
+.social{
+    line-height: 1.6rem;
+    
+}
+
+footer section{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: .7rem;
+}
+footer img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+footer h2{
+    font-size: 1rem;
+}
+/* FINE FOOTER */
+
+main article.template1:hover{
+    background-image: url(../img/1b.webp);
+}
+main article.template2:hover{
+    background-image: url(../img/2b.webp);
+}
+main article.template3:hover{
+    background-image: url(../img/3b.webp);
+}
+main article.template4:hover{
+    background-image: url(../img/4b.webp);
+}
+main article.template5:hover{
+    background-image: url(../img/5b.webp);
+}
+main article.template6:hover{
+    background-image: url(../img/6b.webp);
 }
